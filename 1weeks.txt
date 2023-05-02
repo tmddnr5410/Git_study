@@ -16,4 +16,4 @@ git log는 이제까지 commit 한 파일들을 commit메세지와 commit한 날
 git log --all --oneline 옵션을 추가해 commit메시지만 모아서 확인할수도 있다.
 
 git diff
-git diff명령어는, add후 commit전에, 이전 commit과 코드가 어떤 차이점이 있는지 보여주는 역할을 한다.
+git diff명령어는, commit전에, 이전 commit과 현재 작성한 코드들이 어떤 차이점이 있는지 보여준다.
