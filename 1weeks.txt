@@ -14,3 +14,6 @@ git status 명령어는 현재 add하거나 commit한 내용들을 정리한 상
 git log
 git log는 이제까지 commit 한 파일들을 commit메세지와 commit한 날짜등 기타 정보들과 함께 출력해준다.
 git log --all --oneline 옵션을 추가해 commit메시지만 모아서 확인할수도 있다.
+
+git diff
+git diff명령어는, add후 commit전에, 이전 commit과 코드가 어떤 차이점이 있는지 보여주는 역할을 한다.
