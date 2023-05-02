@@ -20,8 +20,10 @@ git diff명령어는, commit전에, 이전 commit과 현재 작성한 코드들�
 
 git branch
 프로젝트를 진행하다가 새로운 기능을 만들고 싶을때가 있다.
-이때 원래 프로젝트에 코드를 수정하다보면 오류가 발생할 확률이 높고 전 버전으로 가기 곤란하다
+이때 원래 프로젝트에 코드를 수정하다보면 오류가 발생할 확률이 높고
+전 버전으로 가기 곤란하다
 이떄 git branch를 사용하면, 분기가 생겨 원래 프로젝트에 지장을 주지 않고 기능을 추가해보거나 수정해보는 코드를 작성할수 있게된다.
 git branch 명령어로 branch를 만들고
 git switch {branch name} 으로 해당 branch로 전환하여 작업할수 있다.
 git status 입력시 현재 어떤 브랜치로 작업중인지 알수 있다.
+git switch main 혹은 git switch master 명령어로 원래 브랜치로 돌아갈수 있다.
