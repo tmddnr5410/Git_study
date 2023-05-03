@@ -33,3 +33,5 @@ git merge
 해당 branch를 본 프로젝트에 합쳐 추가되거나 수정된 내용을 반영할수 있다.
 이때, master branch의 코드와 같은 줄, 같은 라인에 수정된 내용이 있으면
 merge conflict가 일어나 어떤 코드를 commit시킬지 결정해야한다.
+
+git push & 원격 repository
