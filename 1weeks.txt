@@ -34,4 +34,18 @@ git merge
 이때, master branch의 코드와 같은 줄, 같은 라인에 수정된 내용이 있으면
 merge conflict가 일어나 어떤 코드를 commit시킬지 결정해야한다.
 
-git push & 원격 repository
+원격 repository
+지금까지 배운 내용은 로컬 레포지토리에서만 버전관리를 하는 과정이었다.
+하지만 로컬 PC는 개인이 쓰기 떄문에 협업에는 적절하지 않다.
+따라서 원격 레포지토리에서 add,commit하는 과정이 필요하고
+이를 통해 여러사람이 같은 레포지토리를 편리하게 공유할수 있다.
+
+git push
+git push는 로컬에서 한 작업을 원격 레포지토리에 적용하거나 업로드하는 역할을 한다
+
+git push -u {github레포지토리 주소} {branch 이름} 명령어는
+원격저장주소에 branch를 올리라는 의미이고 -u옵션을 통해 입력한 주소를 저장한다
+이때 주소를 매번 입력하기가 귀찮을텐데,
+
+git remote add origin {git 레포지토리 주소} 명령어 를통해
+레포지토리 주소를 origin으로 별칭을 붙여 사용할수 있게된다.
